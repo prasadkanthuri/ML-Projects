@@ -1,0 +1,12 @@
+prefix=c:/Users/prasa/Dropbox/PC/Desktop/ML-Projects/Project_trail/venv/Library
+exec_prefix=c:/Users/prasa/Dropbox/PC/Desktop/ML-Projects/Project_trail/venv/Library
+libdir=c:/Users/prasa/Dropbox/PC/Desktop/ML-Projects/Project_trail/venv/Library/lib
+includedir=c:/Users/prasa/Dropbox/PC/Desktop/ML-Projects/Project_trail/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
